@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="shortcut icon" href="images.ico" tipe="image/x-icon">
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+        body{
+            background-image: url(fondo2.avif);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cuestionario de mi pagina</h1>
+
+  <form action="resultado.html" method="get">
+    <p>1. ¿Cuantos grados tiene un circulo completo?</p>
+    <input type="number" name="q1" min="0" max="360" required>
+
+    <p>2. ¿Como se llama el angulo de 90 grados?</p>
+    <input type="text" name="q2" required>
+
+    <p>3. ¿Que tipo de angulos se forman cuando una transversal corta dos rectas paralelas y estan en lados opuestos dentro de las rectas?</p>
+    <input type="text" name="q3" required>
+
+    <p>4. ¿Que criterio de semejanza se cumple si dos angulos son iguales?</p>
+    <input type="text" name="q4" required>
+
+    <p>5. En la ecuacion de la recta y = mx + b, ¿que representa la letra m?</p>
+    <input type="text" name="q5" required>
+
+    <br><br>
+    <button type="submit">Enviar</button>
+  </form>
+</body>
+</html>
